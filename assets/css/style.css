@@ -88,6 +88,15 @@ nav a:hover {
   border-radius: 50%;
 }
 
+#selfImg {
+  width: 300px;
+  height: auto;
+  border: 5px solid;
+  border-color: var(--dark);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 .page-title {
   text-align: center;
   width: auto;
