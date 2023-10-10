@@ -117,6 +117,18 @@ nav a:hover {
   color: var(--light);
 }
 
+.displayCard .projectImg {
+  -webkit-filter: blur(3px); /* Chrome, Safari, Opera */
+  filter: blur(3px);
+  transition: filter 0.5s ease-in-out;
+}
+
+.displayCard:hover .projectImg {
+  -webkit-filter: blur(0px); /* Chrome, Safari, Opera */
+  filter: blur(0px);
+  transition-duration: 1s;
+}
+
 .btn {
   font-size: 1.3rem;
   text-decoration: none;
