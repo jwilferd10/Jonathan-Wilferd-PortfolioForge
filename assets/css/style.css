@@ -119,13 +119,13 @@ nav a:hover {
 }
 
 .displayCard .projectImg {
-  -webkit-filter: blur(3px); /* Chrome, Safari, Opera */
-  filter: blur(3px);
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
   transition: filter 0.5s ease-in-out;
 }
 
 .displayCard:hover .projectImg {
-  -webkit-filter: blur(0px); /* Chrome, Safari, Opera */
+  -webkit-filter: blur(0px);
   filter: blur(0px);
   transition-duration: 1s;
 }
