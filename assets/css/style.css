@@ -1076,6 +1076,14 @@ nav a:hover {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .displayCard .projectImg {
+    -webkit-filter: none;
+    filter: none;
+    transition-duration: none;
+  }  
+}
+
 @media screen and (max-width: 377px) {
   .btn {
     font-size: unset;
