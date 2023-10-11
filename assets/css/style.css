@@ -118,6 +118,12 @@ nav a:hover {
   color: var(--light);
 }
 
+.displayCard:hover {
+  background-color: var(--primDark);
+  transform: translate(0px, -10px);
+  transition: 0.5s
+}
+
 .displayCard .projectImg {
   -webkit-filter: blur(2px);
   filter: blur(2px);
