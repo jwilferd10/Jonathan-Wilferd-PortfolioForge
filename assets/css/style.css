@@ -118,6 +118,11 @@ nav a:hover {
   color: var(--light);
 }
 
+.displayCard {
+  transform: initial;
+  transition: 0.5s;
+}
+
 .displayCard:hover {
   background-color: var(--primDark);
   transform: translate(0px, -10px);
