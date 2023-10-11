@@ -1,5 +1,5 @@
 :root {
-  --border-radius: 0.3rem;
+  --border-radius: 0.5rem;
   --spacing-one: calc(1rem * 0.25);
   --spacing-two: calc(1rem * 0.5);
   --spacing-three: 1rem;
@@ -145,7 +145,6 @@ nav a:hover {
   font-size: 1.3rem;
   text-decoration: none;
   padding: 0.5rem 1.2rem;
-  width: 100%;
   margin: 5px 0;
   border-radius: var(--border-radius);
   color: var(--dark);
@@ -156,6 +155,12 @@ nav a:hover {
 .btn:hover {
   color: var(--dark);
   background-color: var(--secondary);
+}
+
+.btn:active {
+  color: white;
+  background-color: var(--dark-gray);
+  transform: translateY(5px);
 }
 
 .btn-inline {
