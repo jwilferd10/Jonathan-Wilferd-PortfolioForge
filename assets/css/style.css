@@ -160,7 +160,6 @@ nav a:hover {
 .btn:active {
   color: white;
   background-color: var(--dark-gray);
-  transform: translateY(5px);
 }
 
 .btn-inline {
