@@ -121,6 +121,8 @@ nav a:hover {
 .displayCard {
   transform: initial;
   transition: 0.5s;
+  position: relative;
+  overflow: hidden;
 }
 
 .displayCard:hover {
@@ -133,6 +135,7 @@ nav a:hover {
   -webkit-filter: blur(2px);
   filter: blur(2px);
   transition: filter 0.5s ease-in-out;
+  width: 100%;
 }
 
 .displayCard:hover .projectImg {
