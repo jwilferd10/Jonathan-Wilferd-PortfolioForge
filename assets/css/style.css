@@ -135,6 +135,12 @@ nav a:hover {
   transition: filter 0.5s ease-in-out;
 }
 
+.projectGif,
+.projectImg {
+  max-width: 100%;
+  display: block; 
+}
+
 .displayCard:hover {
   background-color: var(--primDark);
   transform: translate(0px, -10px);
