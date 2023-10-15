@@ -125,6 +125,16 @@ nav a:hover {
   overflow: hidden;
 }
 
+.projectGif { 
+  border-radius: 10px;
+  max-width: 100%;
+  opacity: 0;
+  height: 0;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  transition: filter 0.5s ease-in-out;
+}
+
 .displayCard:hover {
   background-color: var(--primDark);
   transform: translate(0px, -10px);
@@ -136,6 +146,25 @@ nav a:hover {
   filter: blur(2px);
   transition: filter 0.5s ease-in-out;
   width: 100%;
+}
+
+.displayCard:hover .projectGif {
+  opacity: 1;
+  height: auto;
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+}
+
+.displayCard:hover .projectImg {
+  opacity: 0;
+  height: 0;
+}
+
+.displayCard .projectGif,
+.displayCard .projectImg {
+  transition: opacity 0.5s ease-in-out;
+  width: 100%;
+  max-width: 100%;
 }
 
 .displayCard:hover .projectImg {
