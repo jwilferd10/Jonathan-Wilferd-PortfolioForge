@@ -99,11 +99,6 @@ nav a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.projectImg {
-  max-width: 100%;
-  border-radius: 10px;
-}
-
 .page-title {
   text-align: center;
   width: auto;
@@ -120,37 +115,43 @@ nav a:hover {
 
 .displayCard {
   transform: initial;
-  transition: 0.5s;
+  transition: transform 0.5s;
   position: relative;
   overflow: hidden;
-}
-
-.projectGif { 
-  border-radius: 10px;
-  max-width: 100%;
-  opacity: 0;
-  height: 0;
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
-  transition: filter 0.5s ease-in-out;
-}
-
-.projectGif,
-.projectImg {
-  max-width: 100%;
-  display: block; 
 }
 
 .displayCard:hover {
   background-color: var(--primDark);
   transform: translate(0px, -10px);
-  transition: 0.5s
 }
 
-.displayCard .projectImg {
+.projectImg,
+.projectGif {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+  transition: filter 0.5s ease-in-out, transform 0.5s;
+}
+
+.projectImg {
   -webkit-filter: blur(2px);
   filter: blur(2px);
-  transition: filter 0.5s ease-in-out;
+  opacity: 1;
+  height: auto;
+}
+
+.projectGif { 
+  opacity: 0;
+  height: 0;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.displayCard 
+.projectImg {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
   width: 100%;
 }
 
@@ -159,24 +160,12 @@ nav a:hover {
   height: auto;
   -webkit-filter: blur(0px);
   filter: blur(0px);
+  transition-duration: 0.5s;
 }
 
 .displayCard:hover .projectImg {
   opacity: 0;
   height: 0;
-}
-
-.displayCard:hover .projectGif,
-.displayCard:hover .projectImg {
-  transition: filter 0.5s ease-in-out;
-  width: 100%;
-  max-width: 100%;
-}
-
-.displayCard:hover .projectImg {
-  -webkit-filter: blur(0px);
-  filter: blur(0px);
-  transition-duration: 1s;
 }
 
 .btn {
