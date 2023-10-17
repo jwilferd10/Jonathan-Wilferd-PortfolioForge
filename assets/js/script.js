@@ -23,7 +23,7 @@ displayCards.forEach((displayCard) => {
     });
 
     // Play the gif on mouseover
-    displayCard.addEventListener('mouseover', () => {
+    displayCard.addEventListener('mouseenter', () => {
         // Check if the GIF is already loaded, switch on if true
         if (gifLoaded) {
             projectGif.src = initialGifSrc;
