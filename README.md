@@ -36,11 +36,12 @@ Developing this portfolio has been a learning process itself, throughout this cr
   - Keep GIF's paused until mouseenter
   - Reset GIF's when card's hovered off
 
-It's my focus to ensure the website is optimized for best performance!
+It's my focus to ensure the website is optimized for best performance! 
 
+This portfolio is far from finished, but in the future I'd like to re-develop my portfolio utilizing React and feature more of my projects.
 
 ### 🙏 Thank You
-Above all, thank you for stopping by and exploring this repository! I genuinely hope that you find inspiration here to fuel your own future portfolio projects. Your visit means the world to me, and I'm excited for your creative journey. 🌟
+Above all, thank you for stopping by and exploring this repository! I genuinely hope that you find inspiration here to fuel your own future portfolio projects. Your visit means the world to me, and I'm excited for your creative journey.🌟
 
 ## :floppy_disk: Resources Used
 - HTML5
