@@ -102,6 +102,10 @@ nav a:hover {
   animation: slideRightToLeft 1.3s 1;
 }
 
+#aboutList {
+  animation: slideRightToLeft 1.39s 1;
+}
+
 .page-title {
   text-align: center;
   width: auto;
