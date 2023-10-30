@@ -94,8 +94,12 @@ nav a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-#about {
-  animation: slideRightToLeft 1.5s 1;
+#aboutDiv1{
+  animation: fadeIntoView 1.5s 1;
+}
+
+#aboutDiv2 {
+  animation: slideRightToLeft 1.3s 1;
 }
 
 .page-title {
@@ -1136,7 +1140,10 @@ nav a:hover {
 
 /* Animations */
 @keyframes slideRightToLeft {
-  0% {
-    transform: translateX(100%);
-  }
+  0% {transform: translateX(100%);}
+}
+
+@keyframes fadeIntoView {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
