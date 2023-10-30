@@ -99,15 +99,11 @@ nav a:hover {
 }
 
 #achievements {
-  animation: slideBottomToTop 1.3s 1;
+  animation: slideBottomToTop 1.35s 1;
 }
 
 #aboutDiv2 {
-  animation: slideRightToLeft 1.3s 1;
-}
-
-#aboutList {
-  animation: slideRightToLeft 1.39s 1;
+  animation: slideRightToLeft 1.35s 1;
 }
 
 .page-title {
