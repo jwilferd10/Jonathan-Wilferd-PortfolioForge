@@ -84,6 +84,11 @@ nav a:hover {
   color: var(--secondary);
 }
 
+nav a:active {
+  color: var(--tertiary);
+  translate: 0px 3px;
+}
+
 .selfImg {
   width: 300px;
   height: auto;
