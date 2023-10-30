@@ -94,8 +94,12 @@ nav a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-#aboutDiv1{
-  animation: fadeIntoView 1.5s 1;
+#aboutDiv1 {
+  animation: fadeIntoView 1.8s 1;
+}
+
+#achievements {
+  animation: slideBottomToTop 1.3s 1;
 }
 
 #aboutDiv2 {
@@ -1145,6 +1149,10 @@ nav a:hover {
 /* Animations */
 @keyframes slideRightToLeft {
   0% {transform: translateX(100%);}
+}
+
+@keyframes slideBottomToTop {
+  0% {transform: translateY(100%);}
 }
 
 @keyframes fadeIntoView {
