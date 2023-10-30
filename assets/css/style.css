@@ -202,6 +202,7 @@ nav a:active {
 .btn:active {
   color: white;
   background-color: var(--dark-gray);
+  translate: 0px 5px;
 }
 
 .btn-inline {
