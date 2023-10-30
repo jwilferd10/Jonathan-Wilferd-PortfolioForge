@@ -94,6 +94,10 @@ nav a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+#about {
+  animation: slideRightToLeft 1.5s 1;
+}
+
 .page-title {
   text-align: center;
   width: auto;
@@ -1127,5 +1131,12 @@ nav a:hover {
 @media screen and (max-width: 377px) {
   .btn {
     font-size: unset;
+  }
+}
+
+/* Animations */
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%);
   }
 }
