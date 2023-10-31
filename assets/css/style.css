@@ -183,6 +183,16 @@ nav a:active {
   height: 0;
 }
 
+#gitHubReposPage {
+  text-decoration: underline;
+  font-style: italic;
+  color: inherit;
+}
+
+#gitHubReposPage:hover {
+  color: var(--primary);
+}
+
 /* btn styles  */
 .btn {
   font-size: 1.3rem;
