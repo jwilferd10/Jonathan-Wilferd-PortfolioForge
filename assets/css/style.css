@@ -90,6 +90,16 @@ nav a:active {
   translate: 0px 3px;
 }
 
+#jumbotron {
+  height: 100vh;
+  background-color: var(--primary);
+  background-size: fill;
+}
+
+#jumbotronText {
+  margin-bottom: 30rem;
+}
+
 .selfImg {
   width: 300px;
   height: auto;
