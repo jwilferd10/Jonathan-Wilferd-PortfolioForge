@@ -208,6 +208,16 @@ nav a:active {
 }
 
 /* btn styles  */
+.jumboBtn:hover {
+  color: var(--light) !important;
+  background-color: var(--dark) !important;
+}
+
+.jumboBtn:active {
+  color: var(--dark) !important;
+  background-color: var(--secondary) !important;
+}
+
 .btn {
   font-size: 1.3rem;
   text-decoration: none;
