@@ -92,7 +92,10 @@ nav a:active {
 
 #navLinks {
   margin-top: 0.8rem;
-  margin-right: 0.5rem;
+  margin-right: 0.2rem;
+  list-style: none;
+  gap: 1.5rem;
+  font-size: 1.2rem;
 }
 
 #jumbotron {
