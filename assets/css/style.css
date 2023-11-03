@@ -90,6 +90,11 @@ nav a:active {
   translate: 0px 3px;
 }
 
+#navLinks {
+  margin-top: 0.8rem;
+  margin-right: 0.5rem;
+}
+
 #jumbotron {
   height: 100vh;
   background-color: var(--primary);
