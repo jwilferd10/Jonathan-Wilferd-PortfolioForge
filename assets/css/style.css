@@ -1197,6 +1197,10 @@ nav a:active {
     text-align: center;
     margin: -20rem 1rem 2rem 1rem;
   }
+
+  #intro {
+    margin-left: var(--spacing-one) !important;
+  }
 }
 
 @media screen and (max-width: 377px) {
