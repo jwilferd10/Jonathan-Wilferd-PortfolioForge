@@ -57,19 +57,37 @@ document.querySelectorAll('.scroll').forEach(anchor => {
 });
 
 // Define the HTML elements to be animated
+const aboutDiv1El = document.getElementById('aboutDiv1');
+const achievementsEl = document.getElementById('achievements');
+const aboutDiv2El = document.getElementById('aboutDiv2');
 
 // Set the options for the Intersection Observer 
-
-    // Use viewport as the root
-    // Set no margin
-    // Trigger when 50% of the element is visible
+let options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.5 
+};
 
 // Create a callback function to observe the HTML elements
+const observerCallback = (entries, observer) => {
     // forEach entries run an if statement to see if isIntersecting truthy
+    entries.forEach(entry => {
         // If the section is truthy, apply the CSS animations
+        if (entry.isIntersecting) {
+            // Apply animations when in view
+            aboutDiv1El.style.animation = 'fadeIntoView 1.8s forwards';
+            achievementsEl.style.animation = 'slideBottomToTop 1.35s forwards';
+            aboutDiv2El.style.animation = 'slideRightToLeft 1.35s forwards';
 
-        // Use unobserve to prevent re-triggering
+            // Use unobserve to prevent re-triggering
+            observer.unobserve(entry.target);
+        }
+    })
+};
 
 // Create an Intersection Observer
+const observer = new IntersectionObserver(observerCallback, options);
 
-// Start observing the section
+// Observe the about section
+const aboutSectionEl = document.getElementById('aboutSection');
+observer.observe(aboutSectionEl);
