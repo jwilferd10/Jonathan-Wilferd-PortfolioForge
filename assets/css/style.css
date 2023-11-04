@@ -1199,7 +1199,14 @@ nav a:active {
   }
 
   #intro {
-    margin-left: var(--spacing-one) !important;
+    margin-left: var(--spacing-three) !important;
+  }
+
+  #jobTitle {
+    font-size: 1.7rem;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
   }
 }
 
