@@ -1208,6 +1208,10 @@ nav a:active {
     white-space: nowrap;
     overflow: hidden;
   }
+
+  #builtBy {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 377px) {
@@ -1221,6 +1225,10 @@ nav a:active {
 
   #jumboName {
     font-size: 2rem;
+  }
+
+  #builtBy {
+    font-size: 1.36rem;
   }
 }
 
