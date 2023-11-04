@@ -114,6 +114,11 @@ nav a:active {
   padding: 0rem 1rem 8rem 0rem;
 }
 
+.mobileText {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 #jumboSubText {
   max-width: 50rem;
 }
@@ -1175,9 +1180,36 @@ nav a:active {
   }
 }
 
+@media screen and (max-width: 553px) {
+  .mobileText {
+    text-align: center
+  }
+
+  #jumboName {
+    font-size: 2.5rem;
+  }
+
+  #jumboTitle {
+    font-size: 1.6rem;
+  }
+
+  #jumbotronText {
+    text-align: center;
+    margin: -20rem 1rem 2rem 1rem;
+  }
+}
+
 @media screen and (max-width: 377px) {
   .btn {
     font-size: unset;
+  }
+
+  #jumboTitle {
+    font-size: 1.45rem;
+  }
+
+  #jumboName {
+    font-size: 2rem;
   }
 }
 
