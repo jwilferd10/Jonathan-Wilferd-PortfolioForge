@@ -130,18 +130,6 @@ nav a:active {
   display: none;
 }
 
-/* #aboutDiv1 {
-  animation: fadeIntoView 1.8s 1;
-}
-
-#achievements {
-  animation: slideBottomToTop 1.35s 1;
-}
-
-#aboutDiv2 {
-  animation: slideRightToLeft 1.35s 1;
-} */
-
 .page-title {
   text-align: center;
   width: auto;
