@@ -38,6 +38,8 @@ Developing this portfolio has been a learning process itself, throughout this cr
 
 It's my focus to ensure the website is optimized for best performance! 
 
+Furthermore, I used Intersection Observer API for the first time to play animations when users observe the aboutSection. Reading through the documentation and using this feature helps adding a more finished touch to my portfolio.
+
 This portfolio is far from finished, but in the future I'd like to re-develop my portfolio utilizing React and feature more of my projects.
 
 ### 🙏 Thank You
