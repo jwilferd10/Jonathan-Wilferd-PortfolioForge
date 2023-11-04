@@ -65,7 +65,7 @@ const aboutDiv2El = document.getElementById('aboutDiv2');
 let options = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.5 
+    threshold: 0.5
 };
 
 // Create a callback function to observe the HTML elements
@@ -78,16 +78,16 @@ const observerCallback = (entries, observer) => {
             aboutDiv1El.classList.remove('hidden');
             achievementsEl.classList.remove('hidden');
             aboutDiv2El.classList.remove('hidden');
-            
+
             // Apply animations when in view
             aboutDiv1El.style.animation = 'fadeIntoView 1.8s forwards';
-            achievementsEl.style.animation = 'slideBottomToTop 1.35s forwards';
-            aboutDiv2El.style.animation = 'slideRightToLeft 1.35s forwards';
+            achievementsEl.style.animation = 'slideBottomToTop 1.8s forwards';
+            aboutDiv2El.style.animation = 'slideRightToLeft 1.8s forwards';
 
             // Use unobserve to prevent re-triggering
             observer.unobserve(entry.target);
         }
-    })
+    });
 };
 
 // Create an Intersection Observer
