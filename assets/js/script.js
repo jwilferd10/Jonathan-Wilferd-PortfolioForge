@@ -55,3 +55,21 @@ document.querySelectorAll('.scroll').forEach(anchor => {
         }
     });
 });
+
+// Define the HTML elements to be animated
+
+// Set the options for the Intersection Observer 
+
+    // Use viewport as the root
+    // Set no margin
+    // Trigger when 50% of the element is visible
+
+// Create a callback function to observe the HTML elements
+    // forEach entries run an if statement to see if isIntersecting truthy
+        // If the section is truthy, apply the CSS animations
+
+        // Use unobserve to prevent re-triggering
+
+// Create an Intersection Observer
+
+// Start observing the section
