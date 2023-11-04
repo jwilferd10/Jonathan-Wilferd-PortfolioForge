@@ -74,6 +74,11 @@ const observerCallback = (entries, observer) => {
     entries.forEach(entry => {
         // If the section is truthy, apply the CSS animations
         if (entry.isIntersecting) {
+            // Remove the hidden class from each element
+            aboutDiv1El.classList.remove('hidden');
+            achievementsEl.classList.remove('hidden');
+            aboutDiv2El.classList.remove('hidden');
+            
             // Apply animations when in view
             aboutDiv1El.style.animation = 'fadeIntoView 1.8s forwards';
             achievementsEl.style.animation = 'slideBottomToTop 1.35s forwards';
