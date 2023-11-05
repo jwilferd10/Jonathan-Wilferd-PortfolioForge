@@ -153,6 +153,10 @@ nav a:active {
 
 /* displayCard and associated images */
 
+#mobileNotification {
+  display: none;
+}
+
 .displayCard {
   transform: initial;
   transition: transform 0.5s;
@@ -1181,6 +1185,14 @@ nav a:active {
 }
 
 @media screen and (max-width: 553px) {
+  #desktopNotification {
+    display: none;
+  }
+
+  #mobileNotification {
+    display: block;
+  }
+
   .mobileText {
     text-align: center
   }
