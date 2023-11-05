@@ -153,8 +153,13 @@ nav a:active {
 
 /* displayCard and associated images */
 
+#desktopNotification {
+  font-style: italic;
+}
+
 #mobileNotification {
   display: none;
+  font-style: italic;
 }
 
 .displayCard {
