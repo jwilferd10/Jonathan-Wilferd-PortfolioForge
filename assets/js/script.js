@@ -63,6 +63,8 @@ const aboutDiv2El = document.getElementById('aboutDiv2');
 const skillsListEl = document.getElementById('skillsList');
 const skillsNotificationEl = document.getElementById('skillsNotification');
 
+const skillsListWrapperEl = document.getElementById('skillsListWrapper');
+
 // Set the options for the Intersection Observer 
 let options = {
     root: null,
@@ -87,7 +89,8 @@ const observerCallback = (entries, observer) => {
                 achievementsEl.style.animation = 'slideBottomToTop 1.8s forwards';
                 aboutDiv2El.style.animation = 'slideRightToLeft 1.8s forwards';
             } else if (entry.target.id ==='skillsSection') {
-
+                skillsListWrapperEl.classList.remove('hidden');
+                // Apply animations to skillsSection 
                 skillsListEl.style.animation = 'slideRightToLeft 2s forwards';
                 skillsNotificationEl.style.animation = 'fadeIntoView 5s forwards';
             }
