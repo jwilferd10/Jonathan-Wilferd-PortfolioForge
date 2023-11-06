@@ -1,4 +1,5 @@
 # Jonathan Wilferd
+## Software Developer | Avid Learner
 ⚙️ Powered By: [PortfolioForge](https://github.com/jwilferd10/PortfolioForge)
 
 ⚙️ README built by [ReadMeGenius](https://github.com/jwilferd10/ReadMeGenius)
