@@ -15,7 +15,7 @@
 ## :wave: Description
 
 ### 😁 Welcome to my portfolio page! 
-I've built this portfolio to highlight both my journey and growth as a web-developer while also at its core, showcase the power of adaptability using a template provided by my open-source initiative, PortfolioForge. 
+I've built this portfolio to highlight both my journey and growth as a web-developer while also at its core, showcase the power of adaptability using a template provided by my open-source initiative, PortfolioForge.
 
 ### ❓ What is PortfolioForge
 It's a project built to empower developers and professionals to craft their own unique web profiles. Creating a ready-to-use portfolio or a developer-friendly baseline.  My purpose for PortfolioForge is help spark the idea that you can create a unique online portfolio, whether or not you choose to use PortfolioForge. 
@@ -27,7 +27,9 @@ This repository serves as a live example of how PortfolioForge can be leveraged 
 As you navigate through this portfolio, you'll witness a curated collection of my projects, each representing a step in my development journey. From coding bootcamps to self-study and freelancing, this portfolio encapsulates the evolution of my skills and dedication to the craft.
 
 ### 💭 Developer Notes
-Developing this portfolio has been a learning process itself, throughout this creative journey I've drawn out wireframes and researched effective portfolio's to generate an idea of what I'd like to create myself. One of the trickiest parts about this portfolio was setting up the featured projects. The first version of the design was using up a lot of memory, so I:
+Developing this portfolio has been a learning process itself, throughout this creative journey I've drawn out wireframes and researched effective portfolio's to generate an idea of what I'd like to create myself. The website itself has grown exponentially in part because of suggestions from professionals and friends, resulting in what I believe is a solid portfolio that I can use currently and build upon for the future. 
+
+One of the trickiest parts about this portfolio was setting up the featured projects. The first version of the design was using up a lot of memory, so I:
 - Created still images of each project
 - Created gifs that feature project usage
 - Set each image and gif to lazy-loading
@@ -35,10 +37,9 @@ Developing this portfolio has been a learning process itself, throughout this cr
   - Preload GIFs
   - Keep GIF's paused until mouseenter
   - Reset GIF's when card's hovered off
+  - Leverage Observer API to play animations when users observe specific sections
 
 It's my focus to ensure the website is optimized for best performance! 
-
-Furthermore, I used Intersection Observer API for the first time to play animations when users observe the aboutSection. Reading through the documentation and using this feature helps adding a more finished touch to my portfolio.
 
 This portfolio is far from finished, but in the future I'd like to re-develop my portfolio utilizing React and feature more of my projects.
 
@@ -48,6 +49,7 @@ Above all, thank you for stopping by and exploring this repository! I genuinely 
 ## :floppy_disk: Resources Used
 - HTML5
 - CSS
+- JavaScript
 - PortfolioForge
 - ReadMeGenius
 
