@@ -30,10 +30,13 @@
         </div>
     </header>
 
-    <main class="container my-5">
+    <main class="container pb-4 my-5">
         <!-- <h1 class="text-center">(11/6/2023)</h1>
         <h2 class="text-center pb-5">Thanks for checking this page out, I'm currently developing the Contact-Page and it should be completed soon!</h2> -->
-        <h1 class="text-center pt-5 pb-5">Let's Link Up!</h1>
+        
+        <div class="flex-row justify-center">
+            <h1 id="contactMainHeader" class="display-inline pt-5 pb-1">Let's Link Up!</h1>
+        </div>
 
        <section class="flex-row my-5">
         <!-- Contact Details -->
@@ -41,7 +44,7 @@
                 <div class="mr-5 pr-5">
                     <p>Enthusiastically seeking new connections, I am dedicated to advancing businesses by optimizing their digital presence.</p>
 
-                    <p>Together we can build more interactive environments, Let's chat.</p>
+                    <p>Together we can build more interactive environments. Let's chat.</p>
 
                     <div class="m-1">
                         <p>Find me at: (Input Later)</p>
@@ -52,16 +55,18 @@
             </div>
 
             <!-- Form and Card -->
-            <div id="contactForm" class="card col-12 col-md-6">
-                <h2 id="headerText" class="card-header text-center">Reach Out</h2>
-                <p class="text-center">I'm always looking to make new connections and hear about job opportunities</p>
-                <form class="card-body text-center">
-                    <div class="flex-row justify-center">
-                        <input type="text" id="fname" name="fname" value="First Name">
-                        <input type="text" id="fname" name="fname" value="Email Address">
-                    </div>
-                    <input type="text" id="fname" name="fname" value="Type your message here...">
-                </form> 
+            <div id="contactForm" class="col-12 col-md-6">
+                <div class="card">
+                    <h2 id="headerText" class="card-header text-center">Reach Out</h2>
+                    <form class="card-body text-center">
+                        <div id="formInfo1" class="flex-row">
+                            <input class="form-input" type="text" name="fname" placeholder="First Name">
+                            <input class="form-input" type="text" name="fname" placeholder="Email Address">
+                        </div>
+                        <input id="formMessage" class="form-input" type="text" name="fname" placeholder="Type your message here...">
+                    </form> 
+                </div>
+                <button class="btn">Hello</button>
             </div>
         </section>
     </main>
