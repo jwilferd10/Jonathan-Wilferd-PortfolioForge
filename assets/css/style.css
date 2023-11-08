@@ -73,6 +73,7 @@ header {
   position: sticky;
   z-index: 100;
   top: 0;
+  box-shadow: 0 0 10px var(--primary)
 }
 
 nav {
@@ -106,6 +107,7 @@ nav a:active {
   height: 100vh;
   background-color: var(--primary);
   background-size: fill;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #jumbotronText {
