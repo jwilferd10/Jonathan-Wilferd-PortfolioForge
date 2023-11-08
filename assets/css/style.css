@@ -228,13 +228,14 @@ nav a:active {
 }
 
 /* Skills style */
-/* #skillsList {
-
-} */
-
 #skillsNotification {
   font-size: 0.9rem;
   font-style: italic;
+}
+
+/* Reach Out */
+#contactSubText {
+  margin: 0rem 15rem;
 }
 
 /* btn styles  */
@@ -900,6 +901,10 @@ nav a:active {
 }
 
 /* FLEX CONTENT */
+.flex {
+  display: flex;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
