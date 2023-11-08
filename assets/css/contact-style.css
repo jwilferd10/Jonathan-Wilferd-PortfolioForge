@@ -69,7 +69,7 @@ li ul {
 }
 
 .fa-arrow-right {
-    animation: pointingAnimation 1s infinite;
+    animation: pointingXAnimation 1s infinite;
 }
 
 @media screen and (max-width: 767px) {
