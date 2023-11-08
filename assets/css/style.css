@@ -1273,6 +1273,16 @@ nav a:active {
   #builtBy {
     font-size: 1.5rem;
   }
+
+  #skillsTitleWrapper {
+    margin: 10px 30%;
+  }
+}
+
+@media screen and (max-width: 442px) {
+  #skillsTitleWrapper {
+    margin: 10px 27%;
+  }
 }
 
 @media screen and (max-width: 377px) {
@@ -1303,6 +1313,10 @@ nav a:active {
 
   #contactSubText {
     margin: 0px 0%;
+  }
+
+  #skillsTitleWrapper {
+    margin: 10px 23%;
   }
 }
 
