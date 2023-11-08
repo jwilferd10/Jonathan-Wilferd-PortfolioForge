@@ -23,6 +23,7 @@
     opacity: 0;
     animation: fadeIntoView 1s ease-in-out forwards;
     animation-delay: 1.4s;
+    cursor: pointer;
 }  
 
 .form-input {
@@ -30,11 +31,13 @@
     border-radius: 0px;
     margin: 0px 0px;
     border: 1px solid var(--dark);
-    background: oldlace
+    background: oldlace;
+    cursor: pointer;
 }
 
 .form-input:focus {
     background: var(--light);
+    cursor: initial
 }
 
 .card-body {
