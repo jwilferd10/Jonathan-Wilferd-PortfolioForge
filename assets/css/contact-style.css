@@ -68,3 +68,22 @@ li ul {
 .fa-arrow-right {
     animation: pointingAnimation 1s infinite;
 }
+
+@media screen and (max-width: 767px) {
+    .mr-5, .pr-5 {
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    #contactNotification {
+        text-align: center;
+    }
+
+    .form-input {
+        padding-bottom: 15px;
+    }
+
+    #formMessage {
+        padding-bottom: 30%;
+    }
+}
