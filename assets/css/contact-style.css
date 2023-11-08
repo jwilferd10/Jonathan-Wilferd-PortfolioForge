@@ -21,3 +21,22 @@
     width: 100%;
     padding-bottom: 20%;
 }
+
+li {
+    list-style: none;
+}
+
+li ul {
+    padding-left: 0.25px;
+    margin: auto;
+}
+
+.contactLink {
+    font-style: italic;
+    color: var(--primDark)
+}
+
+.contactLink:hover {
+    font-weight: bold;
+    color: var(--primary);
+}
