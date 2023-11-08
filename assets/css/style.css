@@ -235,7 +235,27 @@ nav a:active {
 
 /* Reach Out */
 #contactSubText {
-  margin: 0rem 15rem;
+  margin: 0px 20%;
+}
+
+#contactAnchor {
+  border-style: solid;
+  border-width: 2px;
+  color: var(--dark);
+  transition: transform 0.3s ease;
+}
+
+#contactAnchor:hover {
+  background-color: var(--primDark);
+  border-color: var(--dark);
+  color: var(--secondary);
+  transform: translateY(-5px);
+}
+
+#contactAnchor:active {
+  background-color: var(--dark-gray);
+  border-color: var(--primDark);
+  color: var(--primDark);
 }
 
 /* btn styles  */
@@ -1279,6 +1299,10 @@ nav a:active {
   .mobileProjectText {
     font-size: 1rem;
     margin: 0.5rem 0rem 1rem 0rem; 
+  }
+
+  #contactSubText {
+    margin: 0px 0%;
   }
 }
 
