@@ -6,11 +6,31 @@
     margin: 0px;
 }
 
+#contactNotification {
+    font-style: italic;
+    font-size: medium;
+}
+
+#contactForm {
+    animation: slideRightToLeft 1.2s ease-in-out forwards;
+}
+
+#submitBtn {
+    opacity: 0;
+    animation: fadeIntoView 1s ease-in-out forwards;
+    animation-delay: 1.4s;
+}  
+
 .form-input {
     width: 50%;
     border-radius: 0px;
     margin: 0px 0px;
     border: 1px solid var(--dark);
+    background: oldlace
+}
+
+.form-input:focus {
+    background: var(--light);
 }
 
 .card-body {
