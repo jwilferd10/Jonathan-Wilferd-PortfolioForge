@@ -1277,6 +1277,10 @@ nav a:active {
   #skillsTitleWrapper {
     margin: 10px 30%;
   }
+
+  #contactSubText {
+    margin: 0px 0px;
+  }
 }
 
 @media screen and (max-width: 442px) {
@@ -1309,10 +1313,6 @@ nav a:active {
   .mobileProjectText {
     font-size: 1rem;
     margin: 0.5rem 0rem 1rem 0rem; 
-  }
-
-  #contactSubText {
-    margin: 0px 0%;
   }
 
   #skillsTitleWrapper {
