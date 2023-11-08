@@ -64,3 +64,7 @@ li ul {
     font-weight: bold;
     color: var(--primary);
 }
+
+.fa-arrow-right {
+    animation: pointingAnimation 1s infinite;
+}

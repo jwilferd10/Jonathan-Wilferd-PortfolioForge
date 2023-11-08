@@ -1300,4 +1300,14 @@ nav a:active {
   }
 }
 
-/* margin: 0.5rem 0rem 1rem 0rem; */
+@keyframes pointingAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  } 
+  100% {
+    transform: translateX(0);
+  }
+}
