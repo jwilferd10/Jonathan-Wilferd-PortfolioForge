@@ -72,6 +72,15 @@ li ul {
     animation: pointingXAnimation 1s infinite;
 }
 
+@keyframes emptyFieldAnimation { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .mr-5, .pr-5 {
         margin-right: 0;

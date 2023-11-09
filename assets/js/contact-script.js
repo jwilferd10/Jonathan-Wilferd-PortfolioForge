@@ -5,7 +5,10 @@ const submitBtnEl = document.getElementById('submitBtn');
 
 submitBtnEl.addEventListener('click', (event) => {
     event.preventDefault();
-    if (nameInputEl === '') {
-        console.log('null value')
-    } 
+
+    
+    // if (nameInputEl.value === '') {
+    //     nameInputEl.classList.add('emptyFieldAnimation')
+    //     nameInputEl.style.animation = 'emptyFieldAnimation 1.8s forwards';
+    // } 
 })
