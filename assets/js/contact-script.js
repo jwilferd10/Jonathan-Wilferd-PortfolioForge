@@ -6,9 +6,24 @@ const submitBtnEl = document.getElementById('submitBtn');
 submitBtnEl.addEventListener('click', (event) => {
     event.preventDefault();
 
-    
-    // if (nameInputEl.value === '') {
-    //     nameInputEl.classList.add('emptyFieldAnimation')
-    //     nameInputEl.style.animation = 'emptyFieldAnimation 1.8s forwards';
-    // } 
-})
+    const formField = [nameInputEl, emailAddressEl, formMessageEl];
+    let checkEmptyField = false;
+
+    formField.forEach(field => {
+        if (field.value === '') {
+            checkEmptyField = true;
+        }
+
+        if (checkEmptyField) {
+            field.classList.add('emptyFieldAnimation');
+            field.style.animation = 'emptyFieldAnimation 2s';
+            field.classList.add('test');
+
+            setTimeout(() => {
+                field.classList.remove('emptyFieldAnimation');
+                field.classList.remove('test');
+                field.style.animation = '';
+            }, 1500);
+        }
+    });
+});

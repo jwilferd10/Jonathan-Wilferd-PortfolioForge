@@ -72,11 +72,15 @@ li ul {
     animation: pointingXAnimation 1s infinite;
 }
 
+.test {
+    background-color: red;
+}
+
 @keyframes emptyFieldAnimation { 
-    from {
+    0%, 100% {
         opacity: 0;
     }
-    to {
+    50% {
         opacity: 1;
     }
 }
