@@ -3,6 +3,8 @@ const emailAddressEl = document.getElementById('emailAddress');
 const formMessageEl = document.getElementById('formMessage');
 const submitBtnEl = document.getElementById('submitBtn');
 
+const TIMEOUT_DURATION = 1500;
+
 const processForm = () => {
     // Form Elements
     const formField = [nameInputEl, emailAddressEl, formMessageEl];
@@ -25,7 +27,7 @@ const processForm = () => {
                 field.classList.remove('emptyFieldAnimation');
                 field.classList.remove('errorColor');
                 field.style.animation = '';
-            }, 1500);
+            }, TIMEOUT_DURATION);
         }
     });
 };
