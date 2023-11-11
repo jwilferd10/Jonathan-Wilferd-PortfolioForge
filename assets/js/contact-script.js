@@ -3,9 +3,7 @@ const emailAddressEl = document.getElementById('emailAddress');
 const formMessageEl = document.getElementById('formMessage');
 const submitBtnEl = document.getElementById('submitBtn');
 
-submitBtnEl.addEventListener('click', (event) => {
-    event.preventDefault();
-
+const processForm = () => {
     // Form Elements
     const formField = [nameInputEl, emailAddressEl, formMessageEl];
     let checkEmptyField = false;
@@ -30,4 +28,9 @@ submitBtnEl.addEventListener('click', (event) => {
             }, 1500);
         }
     });
+};
+
+submitBtnEl.addEventListener('click', (event) => {
+    event.preventDefault();
+    processForm();
 });
