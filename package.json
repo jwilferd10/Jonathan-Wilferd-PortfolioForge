@@ -1,0 +1,23 @@
+{
+  "name": "jonathan-wilferd-portfolioforge",
+  "version": "1.0.0",
+  "description": "My professional web-developer portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwilferd10/Jonathan-Wilferd-PortfolioForge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwilferd10/Jonathan-Wilferd-PortfolioForge/issues"
+  },
+  "homepage": "https://github.com/jwilferd10/Jonathan-Wilferd-PortfolioForge#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.7"
+  }
+}
