@@ -1252,6 +1252,18 @@ nav a:active {
 }
 
 @media screen and (max-width: 553px) {
+  #test {
+    justify-content: center !important;
+  }
+  
+  #nameHeader {
+    font-size: 1.3rem;
+  }
+
+  #navElement {
+    display: none;
+  }
+
   #desktopNotification {
     display: none;
   }
@@ -1274,7 +1286,7 @@ nav a:active {
 
   #jumbotronText {
     text-align: center;
-    margin: -20rem 1rem 2rem 1rem;
+    margin: -10rem 1rem 2rem 1rem;
   }
 
   #intro {
