@@ -1252,12 +1252,13 @@ nav a:active {
 }
 
 @media screen and (max-width: 553px) {
-  #navWrapper {
-    justify-content: center !important;
+  .fa-bars {
+    display: block;
   }
   
   #nameHeader {
     font-size: 1.3rem;
+    justify-content: center !important;
   }
 
   #navElement {
