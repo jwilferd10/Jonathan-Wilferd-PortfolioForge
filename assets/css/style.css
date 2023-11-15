@@ -68,6 +68,10 @@ a {
   text-decoration: none;
 }
 
+#landingPageLink {
+  color: var(--secondary);
+}
+
 header {
   background-color: var(--primary);
   position: sticky;
