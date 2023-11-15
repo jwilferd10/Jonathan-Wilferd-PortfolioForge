@@ -8,24 +8,34 @@ submitBtnEl.addEventListener('click', (event) => {
 
     // Form Elements
     const formField = [nameInputEl, emailAddressEl, formMessageEl];
-    let checkEmptyField = false;
+    let areFieldsEmpty = false;
 
     // Check if each part of the form has a value inside
     formField.forEach(field => {
         if (field.value === '') {
-            checkEmptyField = true;
+            areFieldsEmpty = true;
         }
 
-        if (checkEmptyField) {
+        if (areFieldsEmpty) {
             // Add animations to the form
-            field.classList.add('emptyFieldAnimation');
-            field.style.animation = 'emptyFieldAnimation 2s';
+            field.classList.add('fieldAnimation');
+            field.style.animation = 'fieldAnimation 2s';
             field.classList.add('errorColor');
 
             // Remove the class after timeout conditions trigger
             setTimeout(() => {
-                field.classList.remove('emptyFieldAnimation');
+                field.classList.remove('fieldAnimation');
                 field.classList.remove('errorColor');
+                field.style.animation = '';
+            }, 1500);
+        } else if (!areFieldsEmpty) {
+            field.classList.add('successColor');
+            field.style.animation = 'fieldAnimation 2s';
+
+            // Remove the class after timeout conditions trigger
+            setTimeout(() => {
+                field.classList.remove('fieldAnimation');
+                field.classList.remove('successColor');
                 field.style.animation = '';
             }, 1500);
         }
