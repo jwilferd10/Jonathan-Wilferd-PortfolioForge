@@ -12,21 +12,29 @@
   </head>
     <body>
     <!-- Header -->
-    <header>
-        <!-- Name -->
-        <div id="navWrapper" class="container flex-row justify-space-between align-center py-3">
-            <h1 id="nameHeader" class="target1 page-title rounded-edges2 box-shadow2 spacing-five text-secondary bg-dark px-3"><a id="landingPageLink" href="./index.html">Jonathan Wilferd</h1>
-            <nav id="navElement" class="flex-row">  
-                <!-- GitHub -->    
-                <a class="socialLinks ml-2 my-1 px-2 py-1 text-dark d-flex align-items-center" href="https://github.com/jwilferd10" target="_blank">
-                    <i class="socialIcon fab fa-github fa-2x"></i>
-                </a>
-                <!-- LinkedIn -->
-                <a class="socialLinks ml-2 my-1 px-2 py-1 text-dark d-flex align-items-center" href="https://www.linkedin.com/in/jonathan-wilferd-3a6b461b6/" target="_blank">
-                    <i class="socialIcon fab fa-linkedin fa-2x"></i>
-                </a>
-            </nav>
+    <header id="headerSection">
+      <!-- Name -->
+      <div id="navWrapper" class="container flex-row justify-space-between align-center py-3">
+        <h1 id="nameHeader" class="target1 page-title rounded-edges2 box-shadow2 spacing-five text-secondary bg-dark px-3"><a id="landingPageLink" href="./index.html">Jonathan Wilferd</h1>
+        <nav id="navElement" class="flex-row">  
+            <!-- GitHub -->    
+            <a class="socialLinks ml-2 my-1 px-2 py-1 text-dark d-flex align-items-center" href="https://github.com/jwilferd10" target="_blank">
+                <i class="socialIcon fab fa-github fa-2x"></i>
+            </a>
+            <!-- LinkedIn -->
+            <a class="socialLinks ml-2 my-1 px-2 py-1 text-dark d-flex align-items-center" href="https://www.linkedin.com/in/jonathan-wilferd-3a6b461b6/" target="_blank">
+                <i class="socialIcon fab fa-linkedin fa-2x"></i>
+            </a>
+        </nav>
+        <div id="hamburger">
+          <i class="fas fa-bars fa-2x hidden"></i>
         </div>
+      </div>
+      <!-- Mobile Nav Elements -->
+      <div id="mobileNav">
+        <a href="https://github.com/jwilferd10" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/jonathan-wilferd-3a6b461b6/" target="_blank">LinkedIn</a>
+      </div>
     </header>
 
     <main class="container">
@@ -177,5 +185,6 @@
     </footer>
     
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/hamburger.js"></script>
   </body>
 </html>
