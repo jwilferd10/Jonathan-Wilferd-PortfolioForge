@@ -9,6 +9,9 @@
     <title>Jonathan Wilferd - Full Stack Web Developer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/blue-silver.css">
   </head>
@@ -65,16 +68,14 @@
     <!-- Jumbotron -->
     <section id="jumbotron" class="flex-row justify-center align-center">
       <div id="jumbotronText">
-        <p class="pb-1">👋 Hi, my name is</p>
-        <h1 id="jumboName" class="pb-1 mobileText">Jonathan Wilferd</h1>
+        <p id="greetingsText" class="text-bold"><span id="wavingEmoji">👋</span> Hi, my name is</p>
+        <h1 id="jumboName" class="pb-1 mobileText text-bold">Jonathan Wilferd</h1>
         <h1 id="jumboTitle" class="pb-1 mobileText">Developing digital applications</h1>
         <p id="jumboSubText" class="pb-1">
-          I'm a software developer specialized in Full-Stack Web Development. Enhancing my skills through further research and educational pursuits. And presently, I'm focused on building a diverse range of applications while consistently expanding my toolkit.
+          I'm a software developer specialized in <span class="text-underline">Full-Stack Web Development</span>. Progressing my skills through freelancing and educational pursuits. And presently, I'm focused on building a diverse range of applications while consistently expanding my toolkit.
         </p>
         <button id="contactBtn" class="jumboBtn btn">Reach Out</button>
-        <button href="#mainContent" class="jumboBtn btn scroll">
-          Explore
-        </button>
+        <button href="#mainContent" class="jumboBtn btn scroll">Explore</button>
       </div>
     </section>
 
@@ -137,7 +138,7 @@
           <p id="desktopNotification" class="pl-3"><i class="fas fa-arrow-down"></i> <i class="fas fa-info pl-2 mr-2"></i> Hover on a card!</p>
         </div>
         <p id="mobileNotification" class="text-center pl-3"><i class="fas fa-arrow-down"></i> <i class="fas fa-info pl-2 mr-2"></i> Tap on a card!</p>
-        <div class="flex-row justify-space-between">
+        <div id="projectsWrapper" class="flex-row justify-space-between">
           <!-- PortfolioForge presentation -->
           <div class="col-12 mb-3 bg-dark text-light p-3 rounded-edges2 displayCard box-shadow2 target1">
             <h3 class="portfolio-item-title text-light">🌐 PortfolioForge.</h3>

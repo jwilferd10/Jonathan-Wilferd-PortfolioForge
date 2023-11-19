@@ -15,7 +15,7 @@ body {
   background-color: var(--secondary);
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   color: var(--dark);
   line-height: 1.5;
@@ -144,6 +144,26 @@ nav a:active {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+#greetingsText {
+  font-size: 1.3rem;
+}
+
+#wavingEmoji {
+  font-size: 2rem;
+}
+
+#jumboName {
+  font-size: 3.5rem;
+}
+
+#jumboTitle {
+  font-size: 2rem;
+}
+
+#jumboSubText {
+  font-size: 1.2rem;
+}
+
 #jumbotronText {
   margin: -20rem 1rem 2rem 2rem;
   padding: 0rem 1rem 8rem 0rem;
@@ -199,6 +219,10 @@ nav a:active {
 #mobileNotification {
   display: none;
   font-style: italic;
+}
+
+#projectsWrapper {
+  font-family: 'Roboto', sans-serif;
 }
 
 .displayCard {
