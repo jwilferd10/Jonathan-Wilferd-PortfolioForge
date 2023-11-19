@@ -1375,6 +1375,18 @@ nav a:active {
   #skillsTitleWrapper {
     margin: 10px 27%;
   }
+
+  #jumboTitle {
+    font-size: 1.3rem;
+  }
+
+  #jumboSubText {
+    font-size: 1rem;
+  }
+
+  #greetingsText {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 377px) {
@@ -1448,4 +1460,25 @@ nav a:active {
   100% {
     transform: translateY(0);
   }
+}
+
+
+@keyframes wave {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(-25deg);
+  }
+  50% {
+    transform: rotate(25deg);
+  }
+}
+
+#wavingEmoji {
+  display: inline-block;
+  animation: wave 3s infinite;
 }
