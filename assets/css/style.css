@@ -150,6 +150,8 @@ nav a:active {
 
 #wavingEmoji {
   font-size: 2rem;
+  display: inline-block;
+  animation: wave 3s infinite;
 }
 
 #jumboName {
@@ -1476,9 +1478,4 @@ nav a:active {
   50% {
     transform: rotate(25deg);
   }
-}
-
-#wavingEmoji {
-  display: inline-block;
-  animation: wave 3s infinite;
 }
