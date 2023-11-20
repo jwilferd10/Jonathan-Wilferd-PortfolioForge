@@ -151,7 +151,7 @@ nav a:active {
 #wavingEmoji {
   font-size: 2rem;
   display: inline-block;
-  animation: wave 3s infinite;
+  animation: wave 2s infinite;
 }
 
 #jumboName {
