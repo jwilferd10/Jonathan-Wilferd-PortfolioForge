@@ -1316,7 +1316,11 @@ nav a:active {
   }
 }
 
-@media screen and (max-width: 553px) {
+@media screen and (max-width: 992px) {
+  #jumbotron {
+    padding-top: 25%;
+  }
+
   .fa-bars {
     display: block;
   }
@@ -1329,7 +1333,9 @@ nav a:active {
   #navElement {
     display: none;
   }
+}
 
+@media screen and (max-width: 553px) {
   #desktopNotification {
     display: none;
   }
