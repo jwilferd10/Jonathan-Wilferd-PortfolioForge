@@ -1310,6 +1310,12 @@ nav a:active {
   }
 }
 
+@media screen and (max-width: 2000px) {
+  #jumbotron {
+    padding-top: 10%;
+  }
+}
+
 @media screen and (max-width: 553px) {
   .fa-bars {
     display: block;
