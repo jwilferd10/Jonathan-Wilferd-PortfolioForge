@@ -1,5 +1,5 @@
 const currentThemeEl = document.getElementById('currentTheme');
-const toggleButtonEl = document.getElementById('toggleButton');
+const toggleButtonEl = document.querySelectorAll('.toggleButton');
 
 const toggleTheme = () => {
     // Toggle between light and dark themes 
@@ -9,4 +9,6 @@ const toggleTheme = () => {
     currentThemeEl.setAttribute('href', switchColors);
 }
 
-toggleButtonEl.addEventListener('click', toggleTheme); 
+toggleButtonEl.forEach(button => {
+    button.addEventListener('click', toggleTheme); 
+});
