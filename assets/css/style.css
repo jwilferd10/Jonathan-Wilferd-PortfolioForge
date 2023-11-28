@@ -412,6 +412,11 @@ footer {
   color: var(--text-color);
 }
 
+footer p a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 /* FORM */
 .form-label,
 .form-input,
