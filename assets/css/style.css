@@ -408,6 +408,10 @@ nav a:active {
   padding: 2.5%;
 }
 
+footer {
+  color: var(--text-color);
+}
+
 /* FORM */
 .form-label,
 .form-input,
