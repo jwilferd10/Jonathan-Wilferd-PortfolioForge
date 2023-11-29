@@ -99,7 +99,7 @@ header {
 
 #mobileNav a {
   background-color: var(--dark);
-  color: var(--secondary);
+  color: var(--light);
   display: block;
   padding: 14px 16px;
   text-decoration: none;
@@ -1349,6 +1349,10 @@ footer p a {
 }
 
 @media screen and (max-width: 553px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+
   #desktopNotification {
     display: none;
   }
@@ -1374,10 +1378,6 @@ footer p a {
     margin: -5rem 1rem 2rem 1rem;
   }
 
-  #intro {
-    margin-left: var(--spacing-three) !important;
-  }
-
   #jobTitle {
     font-size: 1.7rem;
     text-align: center;
@@ -1399,6 +1399,10 @@ footer p a {
 }
 
 @media screen and (max-width: 442px) {
+  #intro {
+    margin-left: var(--spacing-four) !important;
+  }
+  
   #skillsTitleWrapper {
     margin: 10px 27%;
   }
