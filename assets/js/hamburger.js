@@ -8,7 +8,7 @@ hamburgerEl.addEventListener('click', () => {
     if (mobileNavEl.style.display === 'block') {
         mobileNavEl.style.display = 'none';
         hamburgerEl.style.color = '#333333'
-        headerEl.style.backgroundColor = '#2196f3';
+        headerEl.style.backgroundColor = '';
         nameHeaderEl.style.backgroundColor = '#333333'
     } else {
         mobileNavEl.style.display = 'block';
