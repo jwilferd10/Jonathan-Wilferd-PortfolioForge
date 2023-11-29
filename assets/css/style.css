@@ -87,6 +87,10 @@ header {
   top: 0;
 }
 
+.socialLinks {
+  color: var(--text-dark);
+}
+
 .fa-bars {
   font-size: 1.5em;
 }
@@ -319,7 +323,7 @@ nav a:active {
 
 .primaryBtn:hover {
   background-color: var(--primDark);
-  border-color: var(--dark);
+  border-color: var(--text-color);
   color: var(--secondary);
   transform: translateY(-5px);
 }
