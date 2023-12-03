@@ -339,6 +339,10 @@ nav a:active {
 }
 
 /* btn styles  */
+.jumboBtn {
+  border: 2px solid black !important;
+}
+
 .jumboBtn:hover {
   color: var(--light) !important;
   background-color: var(--dark) !important;
