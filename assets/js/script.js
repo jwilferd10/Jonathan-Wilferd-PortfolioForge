@@ -75,8 +75,3 @@ const aboutSectionEl = document.getElementById('aboutSection');
 const skillsSectionEl = document.getElementById('skillsSection');
 observer.observe(aboutSectionEl);
 observer.observe(skillsSectionEl);
-
-// Event listener for contactBtn
-// document.getElementById('contactBtn').addEventListener('click', () => {
-//     window.location.href = './contact-page.html';
-// });
