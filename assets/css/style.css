@@ -76,6 +76,10 @@ a {
   color: var(--secondary);
 }
 
+#titleLink {
+  color: inherit;
+}
+
 #nameHeader {
   color: #c0c0c0;
 }
