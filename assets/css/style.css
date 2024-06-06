@@ -427,11 +427,11 @@ nav a:active {
   padding: 2.5%;
 }
 
-footer {
+#siteFooter {
   color: var(--text-color);
 }
 
-footer p a {
+#siteFooter p a {
   color: inherit;
   text-decoration: underline;
 }
