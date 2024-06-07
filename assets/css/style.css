@@ -112,6 +112,11 @@ header {
   display: none;
 }
 
+#mobileToggle {
+  width: 100%;
+  text-align: left;
+}
+
 .mobileNavEl {
   background-color: var(--dark);
   color: var(--light);
