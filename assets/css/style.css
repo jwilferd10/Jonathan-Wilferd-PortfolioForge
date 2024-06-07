@@ -135,11 +135,11 @@ nav {
   justify-content: center;
 }
 
-nav a:hover {
+.navElements:hover {
   color: var(--secondary);
 }
 
-nav a:active {
+.navElements:active {
   color: var(--tertiary);
   translate: 0px 3px;
 }
