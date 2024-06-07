@@ -135,6 +135,12 @@ nav {
   justify-content: center;
 }
 
+.navButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 .navElements:hover {
   color: var(--secondary);
 }
