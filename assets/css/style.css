@@ -112,7 +112,7 @@ header {
   display: none;
 }
 
-#mobileNav a {
+.mobileNavEl {
   background-color: var(--dark);
   color: var(--light);
   display: block;
@@ -121,11 +121,11 @@ header {
   font-size: 17px;
 }
 
-#mobileNav a:hover {
+.mobileNavEl:hover {
   background-color: var(--light);
 }
 
-#mobileNav a:active {
+.mobileNavEl:active {
   color: var(--dark);
 }
 
