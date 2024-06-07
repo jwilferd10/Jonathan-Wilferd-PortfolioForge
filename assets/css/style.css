@@ -121,12 +121,9 @@ header {
   font-size: 17px;
 }
 
-.mobileNavEl:hover {
-  background-color: var(--light);
-}
-
 .mobileNavEl:active {
   color: var(--dark);
+  background-color: var(--light);
 }
 
 nav {
