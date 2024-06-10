@@ -1,7 +1,7 @@
 // Define the HTML elements to be animated
 const aboutDiv1El = document.getElementById('aboutDiv1');
 const achievementsEl = document.getElementById('achievements');
-const aboutDiv2El = document.getElementById('aboutDiv2');
+const aboutSectionTextEl = document.getElementById('aboutSectionText');
 const skillsListEl = document.getElementById('skillsList');
 const skillsNotificationEl = document.getElementById('skillsNotification');
 const skillsListWrapperEl = document.getElementById('skillsListWrapper');
@@ -23,12 +23,12 @@ const observerCallback = (entries, observer) => {
                 // Remove the hidden class from each element
                 aboutDiv1El.classList.remove('hidden');
                 achievementsEl.classList.remove('hidden');
-                aboutDiv2El.classList.remove('hidden');
+                aboutSectionTextEl.classList.remove('hidden');
 
                 // Apply animations when in view
                 aboutDiv1El.style.animation = 'fadeIntoView 1.8s forwards';
                 achievementsEl.style.animation = 'slideBottomToTop 1.8s forwards';
-                aboutDiv2El.style.animation = 'slideRightToLeft 1.8s forwards';
+                aboutSectionTextEl.style.animation = 'slideRightToLeft 1.8s forwards';
             } else if (entry.target.id ==='skillsSection') {
                 skillsListWrapperEl.classList.remove('hidden');
                 // Apply animations to skillsSection 
