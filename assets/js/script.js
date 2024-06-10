@@ -1,5 +1,5 @@
 // Define the HTML elements to be animated
-const aboutDiv1El = document.getElementById('aboutDiv1');
+const aboutSectionIntroEl = document.getElementById('aboutSectionIntro');
 const achievementsEl = document.getElementById('achievements');
 const aboutSectionTextEl = document.getElementById('aboutSectionText');
 const skillsListEl = document.getElementById('skillsList');
@@ -21,12 +21,12 @@ const observerCallback = (entries, observer) => {
         if (entry.isIntersecting) {
             if (entry.target.id === 'aboutSection') {
                 // Remove the hidden class from each element
-                aboutDiv1El.classList.remove('hidden');
+                aboutSectionIntroEl.classList.remove('hidden');
                 achievementsEl.classList.remove('hidden');
                 aboutSectionTextEl.classList.remove('hidden');
 
                 // Apply animations when in view
-                aboutDiv1El.style.animation = 'fadeIntoView 1.8s forwards';
+                aboutSectionIntroEl.style.animation = 'fadeIntoView 1.8s forwards';
                 achievementsEl.style.animation = 'slideBottomToTop 1.8s forwards';
                 aboutSectionTextEl.style.animation = 'slideRightToLeft 1.8s forwards';
             } else if (entry.target.id ==='skillsSection') {

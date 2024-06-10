@@ -102,25 +102,28 @@
     <main class="container my-5">
       <!-- About Section -->
       <section id="aboutSection" class="flex-row justify-center">
-        <!-- Image and Title Wrapper -->
-        <div id="aboutDiv1" class="col-12 col-md-6 hidden">
-          <div id="intro" class="ml-5 pb-2">
+        <section id="aboutSectionIntro" class="col-12 col-md-6 hidden">
+          <!-- Self Image -->
+          <figure id="intro" class="ml-5 pb-2">
             <img src="assets/imgs/SelfPortrait.png" alt="Me" class="selfImg">
-          </div>
+            <figcaption>Photograph of Jonathan</figcaption>
+          </figure>
+
+          <!-- Work Title -->
           <h1 id="jobTitle" lass="pb-3 justify-flex-start mobileText">Full Stack Web Developer</h1>
 
           <!-- Education Sub-Section -->
-          <div class="col-12 col-md-10 my-3 hidden" id="achievements">
+          <aside class="col-12 col-md-10 my-3 hidden" id="achievements">
             <h2 class="text-dark bg-primary p-2 display-inline-block rounded-edges1 box-shadow1 mb-3 px-3 target1"><i class="fas fa-book"></i> Education</h2>
-            <div class="flex-row justify-space-between">
-              <div class="col-12 col-md-10 bg-dark text-light p-3 rounded-edges2 box-shadow2">
+            <section class="flex-row justify-space-between">
+              <article class="col-12 col-md-10 bg-dark text-light p-3 rounded-edges2 box-shadow2">
                 <h3 class="portfolio-item-title text-light">UCLA Coding Bootcamp</h3>
-                <h5 class="portfolio-languages">2020-2021</h5>
+                <h4 class="portfolio-languages">2020-2021</h4>
                 <p>Full-Stack Web Development course with an intensive curriculum that covered a full stack, including HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, progressive web apps, agile methodology, computer science, database theory, MongoDB, MySQL, Git, and more.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+              </article>
+            </section>
+          </aside>
+        </section>
 
         <!-- About Text Wrapper -->
         <section class="col-12 col-md-6 my-3">
