@@ -326,14 +326,18 @@
 
       <!-- Tech Stack Section -->
       <section id="skillsSection" class="my-3 pt-5">
-        <div id="skillsListWrapper" class="hidden">
-          <div id="skillsList" class="flex-row justify-space-between">
+        <section id="skillsListWrapper" class="hidden">
+          <article id="skillsList" class="flex-row justify-space-between">
             <!-- Section Header -->
-            <div id="skillsTitleWrapper">
-              <h2 class="text-dark bg-primary p-2 display-inline-block rounded-edges1 box-shadow1 px-3 mb-3"><i class="fas fa-database"></i> Skills</h2>
-            </div>
+            <header id="skillsTitleWrapper">
+              <h2 class="text-dark bg-primary p-2 display-inline-block rounded-edges1 box-shadow1 px-3 mb-3">
+                <i class="fas fa-database"></i> 
+                Skills
+              </h2>
+            </header>
+
             <!-- Languages -->
-            <div>
+            <section>
               <h3 class="listHeader">Languages</h3>
               <ul class="no-listStyle">
                 <li>JavaScript</li>
@@ -342,18 +346,20 @@
                 <li>SQL</li>
                 <li>C#</li>
               </ul>
-            </div>
+            </section>
+
             <!-- Frameworks -->
-            <div>
+            <section>
               <h3 class="listHeader">Frameworks</h3>
               <ul class="no-listStyle">
                 <li>Express.js</li>
                 <li>Node.js</li>
                 <li>Jest</li>
               </ul>
-            </div>
+            </section>
+
             <!-- Miscellanious Tools -->
-            <div>
+            <section>
               <h3 class="listHeader">Tools</h3>
               <ul class="no-listStyle">
                 <li>Bash</li>
@@ -366,10 +372,14 @@
                 <li>jQuery</li>
                 <li>Handlebars.js</li>
               </ul>
-            </div>
-          </div>
-        </div>
-        <p id="skillsNotification" class="pt-2 text-center">These lists catalogue the range of technologies I've <span class="text-underline">utilized previously</span> and <span class="text-underline">continue leveraging</span> for current and future projects.</p>
+            </section>
+          </article>
+
+          <!-- Footer text -->
+          <footer id="skillsNotification" class="pt-2 text-center">
+            These lists catalogue the range of technologies I've utilized previously and continue leveraging for current and future projects.
+          </footer>
+        </section>
       </section>
 
       <!-- Buffer Area -->
