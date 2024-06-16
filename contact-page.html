@@ -109,7 +109,7 @@
                 <section class="col-12 col-md-6">
                     <article class="card">
                         <!-- Form Body -->
-                        <form action="#" method="POST" class="card-body text-center">
+                        <form action="#" method="POST" class="card-body text-center" aria-labelledby="Form Body">
                             <div id="contactForm">
                                 <!-- Form Header -->
                                 <header class="card-header text-center">
@@ -120,28 +120,28 @@
                                     <!-- Name -->
                                     <section class="form-group form-input form-border">
                                         <label for="nameInput" class="full-container">
-                                            <input id="nameInput" class="full-input no-border form-input" type="text" name="name" placeholder="First Name" required />
+                                            <input id="nameInput" class="full-input no-border form-input" type="text" name="name" placeholder="First Name" aria-label="First Name" required />
                                         </label>
                                     </section>
 
                                     <!-- Email Address -->
                                     <section class="form-group form-input form-border">
                                         <label for="emailAddress" class="full-container">
-                                            <input id="emailAddress" class="full-input no-border form-input" type="email" name="email" placeholder="Email Address" required />
+                                            <input id="emailAddress" class="full-input no-border form-input" type="email" name="email" placeholder="Email Address" aria-label="Email Address" required />
                                         </label>
                                     </section>
 
                                     <!-- Message -->
                                     <section id="messageContainer" class="form-group form-input form-border">
                                         <label for="formMessage" class="full-container">
-                                            <textarea id="formMessage" class="full-input no-border form-input" name="message" placeholder="Type your message here..." required></textarea>
+                                            <textarea id="formMessage" class="full-input no-border form-input" name="message" placeholder="Type your message here..." aria-label="Message" required></textarea>
                                         </label>
                                     </section>
                                 </fieldset>
                             </div>
 
                             <!-- Form Submit -->
-                            <button type="submit" id='submitBtn' class="btn">
+                            <button type="submit" id='submitBtn' class="btn" aria-label="Submit">
                                 <i class="fas fa-paper-plane"></i> 
                                 Submit
                             </button>
