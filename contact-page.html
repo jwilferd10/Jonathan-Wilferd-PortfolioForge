@@ -116,12 +116,22 @@
                         <!-- Form Body -->
                         <form class="card-body text-center">
                             <div id="formInfo1" class="flex-row">
-                                <input id="nameInput" class="form-input" type="text" name="fname" placeholder="First Name">
+                                <section class="form-group form-input form-border">
+                                    <label for="nameInput" class="full-container">
+                                        <input id="nameInput" class="full-input no-border form-input" type="text" name="fname" placeholder="First Name">
+                                    </label>
+                                </section>
+
+
+
+                                
+                                <!-- <input id="nameInput" class="form-input" type="text" name="fname" placeholder="First Name"> -->
                                 <input id="emailAddress" class="form-input" type="text" name="fname" placeholder="Email Address">
                             </div>
                             <textarea id="formMessage" class="form-input" type="text" name="fname" placeholder="Type your message here..."></textarea>
                         </form> 
                     </article>
+                    
                     <!-- Form Submit -->
                     <button id='submitBtn' class="btn">
                         <i class="fas fa-paper-plane"></i> Submit
