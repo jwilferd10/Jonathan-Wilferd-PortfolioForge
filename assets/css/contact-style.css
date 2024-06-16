@@ -83,8 +83,11 @@ fieldset {
     padding: 0;
 }
 
-#formMessage {
+#messageContainer {
     width: 100%;
+}
+
+#formMessage {
     padding-bottom: 20%;
 }
 
@@ -143,6 +146,6 @@ li ul {
     }
 
     #formMessage {
-        padding-bottom: 30%;
+        padding-bottom: 20%;
     }
 }
