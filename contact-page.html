@@ -106,9 +106,14 @@
                 </section>
 
                 <!-- Form and Card -->
-                <div class="col-12 col-md-6">
-                    <div id="contactForm" class="card">
-                        <h2 id="headerText" class="card-header text-center">Say Hello</h2>
+                <section class="col-12 col-md-6">
+                    <article id="contactForm" class="card">
+                        <!-- Form Header -->
+                        <header>
+                            <h2 id="headerText" class="card-header text-center">Say Hello</h2>
+                        </header>
+
+                        <!-- Form Body -->
                         <form class="card-body text-center">
                             <div id="formInfo1" class="flex-row">
                                 <input id="nameInput" class="form-input" type="text" name="fname" placeholder="First Name">
@@ -116,9 +121,12 @@
                             </div>
                             <textarea id="formMessage" class="form-input" type="text" name="fname" placeholder="Type your message here..."></textarea>
                         </form> 
-                    </div>
-                    <button id='submitBtn' class="btn"><i class="fas fa-paper-plane"></i> Submit</button>
-                </div>
+                    </article>
+                    <!-- Form Submit -->
+                    <button id='submitBtn' class="btn">
+                        <i class="fas fa-paper-plane"></i> Submit
+                    </button>
+                </section>
             </section>
         </main>
 
