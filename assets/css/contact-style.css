@@ -27,6 +27,11 @@ fieldset {
     border: 3px solid var(--form-color);
 }
 
+form .btn {
+    display: block;
+    margin: 10px 0 0 0;
+}
+
 #submitBtn {
     opacity: 0;
     animation: fadeIntoView 1s ease-in-out forwards;

@@ -107,45 +107,45 @@
 
                 <!-- Form and Card -->
                 <section class="col-12 col-md-6">
-                    <article>
-                        <section id="contactForm" class="card">
-                            <!-- Form Header -->
-                            <header>
-                                <h2 id="headerText" class="card-header text-center">Say Hello</h2>
-                            </header>
+                    <article class="card">
+                        <!-- Form Body -->
+                        <form action="#" method="POST" class="card-body text-center">
+                            <section id="contactForm">
+                                <!-- Form Header -->
+                                <header>
+                                    <h2 id="headerText" class="card-header text-center">Say Hello</h2>
+                                </header>
 
-                            <!-- Form Body -->
-                            <form class="card-body text-center">
                                 <fieldset id="formInfo1" class="flex-row">
                                     <!-- Name -->
                                     <section class="form-group form-input form-border">
                                         <label for="nameInput" class="full-container">
-                                            <input id="nameInput" class="full-input no-border form-input" type="text" name="fname" placeholder="First Name">
+                                            <input id="nameInput" class="full-input no-border form-input" type="text" name="name" placeholder="First Name" required />
                                         </label>
                                     </section>
 
                                     <!-- Email Address -->
                                     <section class="form-group form-input form-border">
                                         <label for="emailAddress" class="full-container">
-                                            <input id="emailAddress" class="full-input no-border form-input" type="text" name="fname" placeholder="Email Address">
+                                            <input id="emailAddress" class="full-input no-border form-input" type="email" name="email" placeholder="Email Address" required />
                                         </label>
                                     </section>
 
                                     <!-- Message -->
                                     <section id="messageContainer" class="form-group form-input form-border">
                                         <label for="formMessage" class="full-container">
-                                            <textarea id="formMessage" class="full-input no-border form-input" name="message" placeholder="Type your message here..."></textarea>
+                                            <textarea id="formMessage" class="full-input no-border form-input" name="message" placeholder="Type your message here..." required></textarea>
                                         </label>
                                     </section>
                                 </fieldset>
-                            </form> 
-                        </section>
+                            </section>
 
-                        <!-- Form Submit -->
-                        <button id='submitBtn' class="btn">
-                            <i class="fas fa-paper-plane"></i> 
-                            Submit
-                        </button>
+                            <!-- Form Submit -->
+                            <button type="submit" id='submitBtn' class="btn">
+                                <i class="fas fa-paper-plane"></i> 
+                                Submit
+                            </button>
+                        </form> 
                     </article>
                 </section>
             </section>
@@ -165,7 +165,7 @@
             </p>
         </footer>
 
-        <script src="assets/js/contact-script.js"></script>
+        <!-- <script src="assets/js/contact-script.js"></script> -->
         <script src="assets/js/hamburger.js"></script>
         <script src="assets/js/themeToggle.js"></script>
     </body>
