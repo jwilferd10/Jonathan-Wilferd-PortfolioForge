@@ -1438,10 +1438,6 @@ nav {
   #jumboSubText {
     font-size: 1rem;
   }
-
-  #greetingsText {
-    font-size: 1rem;
-  }
 }
 
 @media screen and (max-width: 377px) {
