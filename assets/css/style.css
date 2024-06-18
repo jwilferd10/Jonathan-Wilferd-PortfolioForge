@@ -87,9 +87,6 @@ a {
 #headerSection {
   background-color: var(--jumbotron-color);
   box-shadow: 0 0 10px var(--jumbotron-color);
-}
-
-header {
   position: sticky;
   z-index: 100;
   top: 0;
