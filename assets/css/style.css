@@ -251,6 +251,14 @@ nav {
   font-family: 'Roboto', sans-serif;
 }
 
+figure {
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: auto;
+  height: auto;
+}
+
 .displayCard {
   transform: initial;
   transition: transform 0.5s;
