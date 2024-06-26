@@ -449,6 +449,10 @@ figure {
   text-decoration: underline;
 }
 
+.displayCard footer a .fab {
+  font-size: 1.5rem;
+}
+
 /* FORM */
 .form-label,
 .form-input,
