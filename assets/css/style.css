@@ -238,10 +238,6 @@ nav {
   animation: pointingYAnimation 1s infinite;
 }
 
-#desktopNotification {
-  font-style: italic;
-}
-
 #mobileNotification {
   display: none;
   font-style: italic;
@@ -1387,10 +1383,6 @@ figure {
 @media screen and (max-width: 553px) {
   h3 {
     font-size: 1.5rem;
-  }
-
-  #desktopNotification {
-    display: none;
   }
 
   #mobileNotification {
