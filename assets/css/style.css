@@ -82,6 +82,11 @@ a {
 
 #nameHeader {
   color: #c0c0c0;
+  text-align: center;
+  width: auto;
+  padding: 0.7rem 1rem;
+  box-shadow: 0px 3px 4px black;
+  font-size: 2.5rem;
 }
 
 #headerSection {
@@ -216,14 +221,6 @@ nav {
 
 .hidden {
   display: none;
-}
-
-.page-title {
-  text-align: center;
-  width: auto;
-  padding: 10px 15px 10px 20px;
-  box-shadow: 0px 3px 4px black !important;
-  font-size: 2.5rem;
 }
 
 .portfolio-languages {
