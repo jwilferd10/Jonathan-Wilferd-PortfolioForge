@@ -7,12 +7,14 @@ const toggleTheme = () => {
     let currentPath = window.location.pathname
     let switchColors;
 
+    let initialTheme = currentThemeEl.getAttribute('href').includes('blue-silver.css');
+
     if (currentPath.includes('/html/')) {
         // Current path is within the html directory
-        switchColors = currentThemeEl.getAttribute('href').includes('blue-silver.css') ? '../assets/css/dark-mode.css' : '../assets/css/blue-silver.css';
+        switchColors = initialTheme ? '../assets/css/dark-mode.css' : '../assets/css/blue-silver.css';
     } else {
         // Current path is the root path
-        switchColors = currentThemeEl.getAttribute('href').includes('blue-silver.css') ? 'assets/css/dark-mode.css' : 'assets/css/blue-silver.css';
+        switchColors = initialTheme ? 'assets/css/dark-mode.css' : 'assets/css/blue-silver.css';
     }
 
     // Change the href attribute to switch the CSS file
