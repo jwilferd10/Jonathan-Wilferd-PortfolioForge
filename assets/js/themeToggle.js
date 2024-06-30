@@ -21,7 +21,8 @@ const toggleTheme = () => {
     currentThemeEl.setAttribute('href', switchColors);
 
     // Toggle the emoji icon
-    let switchEmoji = emojiToggleEl.getAttribute('class').includes('fa-sun') ? 'emojiToggle fas fa-moon fa-2x' : 'emojiToggle fas fa-sun fa-2x';
+    const emojiClasses = 'emojiToggle fas fa-2x'
+    let switchEmoji = emojiToggleEl.getAttribute('class').includes('fa-sun') ? `${emojiClasses} fa-moon` : `${emojiClasses} fa-sun`;
     emojiToggleEl.setAttribute('class', switchEmoji);
 }
 
