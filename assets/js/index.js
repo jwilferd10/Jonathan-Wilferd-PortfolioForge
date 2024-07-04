@@ -1,5 +1,6 @@
 import { toggleButtonEventListener } from './themeToggle.js';
 import { toggleMobileNav, navigationOutsideClickListener } from './hamburger.js';
+import { handleGifPlayer } from './display-projects.js';
 
 // Initialize the event listener
 document.addEventListener('DOMContentLoaded', () => {
@@ -11,4 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Toggles theme
     toggleButtonEventListener();
+
+    // Handle Project GIF video
+    handleGifPlayer();
+
 });
