@@ -50,8 +50,18 @@ const initializeObservers = () => {
     // Observe the about section
     const aboutSectionEl = document.getElementById('aboutSection');
     const skillsSectionEl = document.getElementById('skillsSection');
-    observer.observe(aboutSectionEl);
-    observer.observe(skillsSectionEl);
+    
+    if (aboutSectionEl) {
+        observer.observe(aboutSectionEl);
+    } else {
+        console.log('Location does not have a aboutSectionEl. Skipping >>');
+    }
+
+    if (skillsSectionEl) {
+        observer.observe(skillsSectionEl);
+    } else {
+        console.log('Location does not have a skillsSectionEl. Skipping >>');
+    }
 };
 
 export { initializeObservers };
