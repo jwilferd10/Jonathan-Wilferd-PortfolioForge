@@ -8,7 +8,7 @@ const applyBlurEffect = (card, blurIntensity) => {
     }
 };
 
-document.addEventListener('DOMContentLoaded', function() {
+const mobileProjectObserver = () => {
     // Get all the displayCard elements 
     const displayCards = document.querySelectorAll('.displayCard');
 
@@ -47,4 +47,6 @@ document.addEventListener('DOMContentLoaded', function() {
             mobileObserver.observe(card);
         });
     };
-});
+};
+
+export { mobileProjectObserver };

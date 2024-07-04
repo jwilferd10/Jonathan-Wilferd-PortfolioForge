@@ -2,6 +2,7 @@ import { toggleButtonEventListener } from './themeToggle.js';
 import { toggleMobileNav, navigationOutsideClickListener } from './hamburger.js';
 import { handleGifPlayer } from './display-projects.js';
 import { initializeObservers } from './animations-observer.js';
+import { mobileProjectObserver } from './mobile-observer.js';
 
 // Initialize the event listener
 document.addEventListener('DOMContentLoaded', () => {
@@ -20,4 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Handle Project GIF video
     handleGifPlayer();
 
+    // Applies styles that showcases projects for mobile devices
+    mobileProjectObserver();
 });
