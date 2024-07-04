@@ -31,6 +31,10 @@ const toggleTheme = () => {
     }
 }
 
-toggleButtonEl.forEach(button => {
-    button.addEventListener('click', toggleTheme); 
-});
+const toggleButtonEventListener = () => {
+    toggleButtonEl.forEach(button => {
+        button.addEventListener('click', toggleTheme); 
+    })
+};
+
+export { toggleButtonEventListener };
