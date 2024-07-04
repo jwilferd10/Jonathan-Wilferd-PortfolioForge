@@ -21,21 +21,27 @@ const showNavigation = () => {
 };
 
 // Toggle to show or hide mobile navigation links
-hamburgerEl.addEventListener('click', (event) => {
-    event.stopPropagation();
-    if (mobileNavEl.style.display === 'block') {
-        closeNavigation();
-    } else {
-        showNavigation();
-    }
-});
+const toggleMobileNav = () => {
+    hamburgerEl.addEventListener('click', (event) => {
+        event.stopPropagation();
+        if (mobileNavEl.style.display === 'block') {
+            closeNavigation();
+        } else {
+            showNavigation();
+        }
+    });
+};
 
 // Close mobile navigation when clicking outside the hamburger or mobile navigation
-document.body.addEventListener('click', (event) => {
-    const isHamburgerClick = event.target === hamburgerEl;
-    const isMobileNavClick = event.target.closest('#mobileNav') !== null;
+const navigationOutsideClickListener = () => {
+    document.body.addEventListener('click', (event) => {
+        const isHamburgerClick = event.target === hamburgerEl;
+        const isMobileNavClick = event.target.closest('#mobileNav') !== null;
 
-    if (!isHamburgerClick && !isMobileNavClick) {
-        closeNavigation();
-    }
-});
+        if (!isHamburgerClick && !isMobileNavClick) {
+            closeNavigation();
+        }
+    });
+};
+
+export { toggleMobileNav, navigationOutsideClickListener };
