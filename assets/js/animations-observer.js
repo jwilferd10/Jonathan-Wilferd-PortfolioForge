@@ -42,11 +42,16 @@ const observerCallback = (entries, observer) => {
     });
 };
 
-// Create an Intersection Observer
-const observer = new IntersectionObserver(observerCallback, options);
+// Initialize and start observing
+const initializeObservers = () => {
+    // Create an Intersection Observer
+    const observer = new IntersectionObserver(observerCallback, options);
 
-// Observe the about section
-const aboutSectionEl = document.getElementById('aboutSection');
-const skillsSectionEl = document.getElementById('skillsSection');
-observer.observe(aboutSectionEl);
-observer.observe(skillsSectionEl);
+    // Observe the about section
+    const aboutSectionEl = document.getElementById('aboutSection');
+    const skillsSectionEl = document.getElementById('skillsSection');
+    observer.observe(aboutSectionEl);
+    observer.observe(skillsSectionEl);
+};
+
+export { initializeObservers };
