@@ -348,19 +348,19 @@ figure {
   color: var(--primDark);
 }
 
-/* btn styles  */
-.jumboBtn {
-  border: 2px solid black !important;
+/* btn and anchor styles  */
+.jumbotronText footer a {
+  border: 2px solid black;
 }
 
-.jumboBtn:hover {
-  color: var(--light) !important;
-  background-color: var(--dark) !important;
+.jumbotronText footer a:hover {
+  color: var(--light);
+  background-color: var(--dark);
 }
 
-.jumboBtn:active {
-  color: var(--dark) !important;
-  background-color: var(--secondary) !important;
+.jumbotronText footer a:active {
+  color: var(--dark);
+  background-color: var(--secondary);
 }
 
 .btn {
