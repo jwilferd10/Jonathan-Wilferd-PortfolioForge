@@ -1369,7 +1369,7 @@ figure {
   
   #nameHeader {
     font-size: 1.3rem;
-    justify-content: center !important;
+    justify-content: center;
   }
 
   #navElement {
@@ -1425,7 +1425,7 @@ figure {
 
 @media screen and (max-width: 442px) {
   #intro {
-    margin-left: var(--spacing-four) !important;
+    margin-left: var(--spacing-four);
   }
   
   #skillsTitleWrapper {
